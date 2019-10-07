@@ -62,7 +62,7 @@ def copy_password(number,count):
     Function that copies the password to the clipboard
     '''
     UsersData.copy_password(number,count)
-    
+
 def main():
     '''
     Main function
@@ -96,7 +96,7 @@ def main():
             get_result = authenticate(my_login,my_key)
             if get_result == 0:
                 print("\n")
-                print("Invalid username and/or password")
+                print("Invalid username or password")
                 print("-"*27)
             elif get_result!=0:
                 print("\n")
@@ -158,7 +158,7 @@ def main():
 
                     elif get_input == "l":
                         print("\n")
-                        print(f"See you soon {get_result.user_name}!")
+                        print(f"Visit again soon {get_result.user_name}!")
                         print("-"*60)
                         break
                     elif get_input == "gn":
@@ -185,7 +185,7 @@ def main():
 
         elif welcome_text == "e":
             print("\n")
-            print(f"Goodbye!!")
+            print(f"Visit again soon!")
             print("-"*60)
         else:
             print("Invalid entry. Enter command again")
