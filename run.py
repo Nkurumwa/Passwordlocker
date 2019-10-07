@@ -1,5 +1,5 @@
 import string,random,time
-from locker import Credentials,UsersData
+from password import Credentials,UsersData
 
 def new_account(id,user_name,password):
     '''
