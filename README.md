@@ -13,7 +13,6 @@ input python3.6 run.py
 the pyperclip is copying one character of the password
 Technologies Used
 python3.6 shell
-vs code
 ## Specifications
 |Behavior	   |Input	  |Outcome|
 |------------|---------|-------|
@@ -24,8 +23,6 @@ vs code
 |If a user wants to view password(s)|  choose 'v'|  password(s) will be displayed|
 |If a user wants to add their own password| choose 'a'|  preferred password will be created|
 |If user wants to exit|	choose 'e'|	the program will be exited|
-|If user wants to exit|	choose 'e'|	the program will be exited from|
-
 
 ## Support and Contacts
 nkurumwa@gmail.com
