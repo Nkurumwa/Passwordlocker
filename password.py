@@ -13,3 +13,9 @@ class Credentials:
         self.identify = identify
         self.user_name = user_name
         self.password = password
+
+            def create_account(self):
+        '''
+        creating and saving log in credentials for the various users
+        '''
+        Credentials.users_list.append(self)
