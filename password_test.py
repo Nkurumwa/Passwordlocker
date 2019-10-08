@@ -65,8 +65,8 @@ class TestUserData(unittest.TestCase):
         '''
         self.assertEqual(self.new_data.ident,1)
         self.assertEqual(self.new_data.data_id,1)
-        # self.assertEqual(self.new_data.website,"")
-        # self.assertEqual(self.new_data.web_key,"")
+        self.assertEqual(self.new_data.website,"")
+        self.assertEqual(self.new_data.web_key,"")
         self.assertEqual(self.new_data.name,"")
 
     def test_add_password(self):
