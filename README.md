@@ -10,10 +10,12 @@ download python3.6
 input python3.6 run.py
 
 ## Known Bugs
-the pyperclip is copying one character of the password
-Technologies Used
-python3.6 shell
-## Specifications
+the pyperclip is not working as expected.
+
+### Technologies Used
+python3.6
+
+### Specifications
 |Behavior	   |Input	  |Outcome|
 |------------|---------|-----------|
 |user chooses wrong shortcode| choose wrong short code|	error message 'Invalid command'|
@@ -24,7 +26,7 @@ python3.6 shell
 |If a user wants to add their own password| choose 'a'|  preferred password will be created|
 |If user wants to exit|	choose 'e'|	the program will be exited|
 
-## Support and Contacts
+### Support and Contacts
 nkurumwa@gmail.com
 
 ### License and Copyright
