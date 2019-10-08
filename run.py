@@ -119,7 +119,7 @@ def main():
                         print("\nWait...")
                         time.sleep(1)
                         print("\n")
-                        print(f"***Your {my_website} is {my_name} and password is {my_webkey}***")
+                        print(f"***Your website is {my_website}, username is {my_name} and password is {my_webkey}***")
                         print("-"*60)
 
                     elif get_input == "v":
@@ -161,13 +161,13 @@ def main():
                         print(f"Visit again soon {get_result.user_name}!")
                         print("-"*60)
                         break
-                    elif get_input == "gn":
+                    elif get_input == "g":
                         print("Add website, username and password to store them securely:")
                         print("Enter WEbsite:")
                         my_website = input()
-                        print("Enter USername:")
+                        print("Enter Username:")
                         my_name = input()
-                        print("Enter PAssword")
+                        print("Enter Password")
                         my_webkey = input()
                         my_ident = get_result.identify
                         add_data(my_new_data(my_ident,entries[my_ident],my_website,my_webkey,my_name))
